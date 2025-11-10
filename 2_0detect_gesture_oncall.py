@@ -7,7 +7,7 @@ from mediapipe.tasks.python import vision
 model_path = "gesture_recognizer.task"
 base_options = python.BaseOptions(model_asset_path=model_path)
 
-# --- Step 2: Configure options for live mode ---
+# --- Step 2: Configure options ---
 options = vision.GestureRecognizerOptions(
     base_options=base_options,
     running_mode=vision.RunningMode.IMAGE,
