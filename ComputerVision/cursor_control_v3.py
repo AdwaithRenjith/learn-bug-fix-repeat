@@ -6,7 +6,7 @@ from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
 
 # --- Initialize Gesture Recognizer ---
-model_path = ".\gesture_recognizer.task"
+model_path = "ComputerVision\gesture_recognizer.task"
 base_options = python.BaseOptions(model_asset_path=model_path)
 options = vision.GestureRecognizerOptions(
     base_options=base_options,
